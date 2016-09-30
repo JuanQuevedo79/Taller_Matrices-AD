@@ -206,7 +206,7 @@ public class Helper {
         for (int i = 0; i < nf; i++) {
             for (int j = 0; j < nc; j++) {
                 aux = (int) tabla1.getValueAt(i, j);
-                if (j == i / 2 || j == nf - 1 - i / 2) {
+                if (j == nf - 1 - i / 2||j == i / 2 ) {
                     tabla2.setValueAt(aux, i, j);
                 }
             }
